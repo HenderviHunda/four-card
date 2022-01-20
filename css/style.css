@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=Lexend+Deca&family=Poppins:wght@200;600&family=Roboto&display=swap');
+
+body{
+    font-size: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.title{
+    padding: 1rem 20rem;
+}
+
+.title .one{
+    color: rgba(0, 0, 0, 0.438);
+    margin-bottom: 0;
+}
+
+.title{
+    margin: 0;
+}
+
+.title p{
+    padding: 5px 30px;
+    margin: 30px 30px;
+}
+
+.contenedores{
+    display: flex;
+    position: absolute;
+}
+
+.supervisor{
+    display: flex;
+    text-align: left;
+    margin: 15px;
+    padding: 5px 15px;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    box-shadow: 2px 5px 10px black;
+    width: 35%;
+    flex-direction: column;
+    position: relative;
+    top: 7rem;
+    left: 8rem;
+}
+
+.supervisor p{
+    color: rgba(0, 0, 0, 0.438);
+    padding: 5px 10px;
+}
+
+.supervisor img{
+    margin-left: 12rem;
+}
+
+.team{
+    display: flex;
+    text-align: left;
+    margin: 15px;
+    padding: 5px 15px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    box-shadow: 2px 5px 10px black;
+    flex-direction: column;
+    width: 35%;
+    position: relative;
+    top: -2rem;
+    left: 9rem;
+}
+
+.team p{
+    color: rgba(0, 0, 0, 0.438);
+    padding: 5px 10px 0 15px;
+}
+
+.team img{
+    margin-left: 12rem;
+}
+
+.karma{
+    display: flex;
+    text-align: left;
+    margin: 15px;
+    padding: 5px 15px;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    box-shadow: 2px 5px 10px black;
+    width: 35%;
+    flex-direction: column;
+    position: relative;
+    top: 14rem;
+    left: -11rem;
+}
+
+.karma p{
+    color: rgba(0, 0, 0, 0.438);
+    padding: 5px 10px;
+}
+
+.karma img{
+    margin-left: 11rem;
+}
+
+.calculator{
+    display: flex;
+    text-align: left;
+    margin: 15px;
+    padding: 5px 15px;
+    border-top: 4px solid hsl(212, 86%, 64%);
+    box-shadow: 2px 5px 10px black;
+    width: 35%;
+    flex-direction: column;
+    position: relative;
+    top: 7rem;
+    left: -10rem;
+}
+
+.calculator p{
+    color: rgba(0, 0, 0, 0.438);
+    padding: 5px 10px;
+}
+
+.calculator img{
+    margin-left: 12rem;
+}
+
+@media (max-width: 375px) {
+    .title h1{
+        width: 100vw;
+        padding: 0%;
+        font-size: 25px;
+        margin: 10px 35px;
+    }
+
+    .title p{
+        width: 80vw;
+    }
+
+    .contenedores{
+        flex-direction: column;
+        margin: 20px;
+        position: absolute;
+    }
+
+    .supervisor{
+        position: relative;
+        width: 50%;
+        left: 22rem;
+        top: -3rem;
+    }
+
+    .team{
+        position: relative;
+        width: 50%;
+        left: 22rem;
+        top: -3rem;
+    }
+
+    .karma{
+        position: relative;
+        width: 50%;
+        left: 22rem;
+        top: -3rem;
+    }
+
+    .calculator{
+        position: relative;
+        width: 50%;
+        left: 22rem;
+        top: -3rem;
+    }
+
+}
